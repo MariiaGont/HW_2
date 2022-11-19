@@ -6,6 +6,7 @@ void Task1()
     Console.WriteLine("На вход принимается число и выводится третья цифра этого числа.");
     Console.Write("Введите число, состоящее из трёх чисел и более: ");
     int number = Convert.ToInt32(Console.ReadLine());
+    number = Math.Abs(number);
     int length = number.ToString().Length;
 
     if (length < 3)
@@ -24,6 +25,7 @@ void Task2()
     Console.WriteLine("На вход принимается число и выводится третья цифра этого числа.");
     Console.Write("Введите число, состоящее из трёх чисел и более: ");
     int number = Convert.ToInt32(Console.ReadLine());
+    number = Math.Abs(number);
 
     while (number > 1000)
     {
@@ -39,6 +41,7 @@ void Task3()
     Console.WriteLine("На вход принимается число и выводится третья цифра этого числа.");
     Console.Write("Введите число, состоящее из трёх чисел и более: ");
     int number = Convert.ToInt32(Console.ReadLine());
+    number = Math.Abs(number);
     
     if (number < 100)
     {
